@@ -29,15 +29,15 @@ cevaplar = {
     "vaka6": "anahtar",
 
     # 🌀 Portal 7 — Şiirin Portalı (Kaya)
-    "vaka7": "●",
+    "vaka7": "labirent",
 
     # 🌀 Portal 8 — Mors Sinyalleri (Serhat)
     "vaka8": "ARAYIŞ",
 
     # 🌀 Portal 9 — Mantık Kapısı (Core Crew)
-    "vaka9": "USTA",
+    "vaka9": "rehber",
 
     # 🌀 Portal 10 — Son Portal (Core Crew)
-    "vaka10": "macera●au",
+    "vaka10": "maceralar",
 
 }
