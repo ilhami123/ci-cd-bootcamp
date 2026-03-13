@@ -8,8 +8,7 @@
 ```
 
 Nigina, bu portalın anahtarını bir **harf haritasının** içine gizlemiş.
-Ama bu sefer tek tek koordinat aramak yetmez — bir **yol** izleyerek
-harfleri toplamalısın!
+Bir yol izleyerek harfleri toplamalısın!
 
 ---
 
@@ -32,24 +31,19 @@ Satır-6 │    B    │    G    │    E    │    Ş    │    P    │    V  
         └─────────┴─────────┴─────────┴─────────┴─────────┴─────────┴─────────┴─────────┘
 ```
 
-## Görev
+## Nigina'nın Yol Tarifi
 
-Başlangıç noktası: **Satır-1, Sütun-1** (bu hücredeki harfi ALMA,
+Başlangıç noktası: **Satır-1, Sütun-1** (bu hücredeki harfi alma,
 sadece başlangıç pozisyonun).
-
-Nigina'nın yol tarifi:
 
 ```
 Adım 1: Başlangıçtan SAĞA 3 adım git → Vardığın hücredeki harfi yaz
-Adım 2: Oradan AŞAĞI 2 adım git    → Vardığın hücredeki harfi yaz
-Adım 3: Oradan SOLA 1 adım git      → Vardığın hücredeki harfi yaz
-Adım 4: Oradan AŞAĞI 1 adım git     → Vardığın hücredeki harfi yaz
+Adım 2: Oradan AŞAĞI 2 adım git       → Vardığın hücredeki harfi yaz
+Adım 3: Oradan SOLA 1 adım git         → Vardığın hücredeki harfi yaz
+Adım 4: Oradan AŞAĞI 1 adım git        → Vardığın hücredeki harfi yaz
 ```
 
-4 adım = 4 harf. Birleştirdiğinde portalın anahtarını bulacaksın!
-
-> İpucu: Başlangıç (1,1). Sağa 3 adım → (1,4). Haritada Satır-1,
-> Sütun-4'te hangi harf var?
+4 adım = 4 harf.
 
 ---
 

@@ -8,8 +8,8 @@
 ```
 
 Kaya, takım lideri olarak bu portalın anahtarını bir **şiirin
-derinliklerine** gizlemiş. Ama dikkat — şiirdeki her satır
-ipucu taşımıyor. Bazıları seni **yanlış yöne** sürükleyecek.
+derinliklerine** gizlemiş. Ama şiirdeki her satır ipucu taşımıyor —
+bazıları seni yanlış yöne sürükleyecek.
 
 ---
 
@@ -18,11 +18,9 @@ ipucu taşımıyor. Bazıları seni **yanlış yöne** sürükleyecek.
 Akrostiş, bir şiirde **her satırın ilk harfinin** birleştirilmesiyle
 gizli bir mesaj oluşturma tekniğidir.
 
-**Ama bu sefer bir twist var:** Şiirde **20 satır** var ve her
-satırın başında farklı bir **şekil** bulunuyor: ◆, ■, veya ●
-
-Bu şekillerden sadece **biri** portal anahtarını oluşturuyor.
-Diğerleri seni yanıltmak için tasarlanmış.
+Şiirde **20 satır** var ve her satırın başında bir **şekil** bulunuyor:
+◆, ■, veya ●. Bu şekillerden sadece **biri** portal anahtarını
+oluşturuyor.
 
 ## Kaya'nın Notu
 
@@ -56,16 +54,6 @@ Diğerleri seni yanıltmak için tasarlanmış.
 ║                                                                  ║
 ╚══════════════════════════════════════════════════════════════════╝
 ```
-
-## Görev
-
-1. Kaya'nın notundaki bilmeceyi çöz — **hangi şekli** takip etmelisin?
-2. O şekille işaretlenmiş satırları bul
-3. Bu satırların **ilk harflerini** sırasıyla birleştir
-
-> İpucu: Yanlış şekli seçersen de anlamlı bir kelime çıkabilir.
-> Ama o kelime portal anahtarı değil — belki sana bir mesaj
-> veriyordur.
 
 ---
 

@@ -8,14 +8,15 @@
 ```
 
 Mehmet, bu portalın anahtarını **8 bitlik binary (ikili sayı sistemi)**
-ile şifrelemiş. Gerçek bilgisayarların dilini çözebilir misin?
+ile şifrelemiş. Bilgisayarların dilini çözebilir misin?
 
 ---
 
-## Binary Nedir?
+## Binary Nasıl Çalışır?
 
 Bilgisayarlar sadece 0 ve 1'lerle konuşur. 8 bitlik bir sayıda
-her basamak, sağdan sola 2'nin artan kuvvetlerini temsil eder:
+her basamak, sağdan sola 2'nin artan kuvvetlerini temsil eder.
+Sadece **1** olan basamakların değerlerini topla!
 
 ```
 Basamak değeri:  128   64   32   16    8    4    2    1
@@ -32,8 +33,6 @@ S=19  T=20  U=21  V=22  W=23  X=24  Y=25  Z=26
 
 ## Şifreli Mesaj
 
-Mehmet'in bıraktığı 8 bitlik binary dizisi:
-
 ```
 ╔═══════════════════════════════════════════════════════════════════════╗
 ║                                                                       ║
@@ -42,9 +41,7 @@ Mehmet'in bıraktığı 8 bitlik binary dizisi:
 ╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
-## Görev
-
-Her 8 bitlik grubu **onluk sayıya** çevir, sonra **harf tablosundan**
+Her 8 bitlik grubu onluk sayıya çevir, sonra harf tablosundan
 karşılığını bul. 7 grup = 7 harf.
 
 Her grupta sağdan sola basamak değerleri:
@@ -55,6 +52,7 @@ Her grupta sağdan sola basamak değerleri:
 Sadece **1** olan basamakların değerlerini topla!
 
 > İpucu: `00000011` → sadece son iki basamak 1 → 2+1 = 3 → Harf tablosunda 3 = C
+
 
 ---
 

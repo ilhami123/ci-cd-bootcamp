@@ -8,8 +8,7 @@
 ```
 
 Serhat, bu portalın anahtarını büyük bir sayı matrisinin içine gizlemiş.
-Ama bu sefer sadece koordinat bulmak yetmez — bir de **matematiksel
-işlem** uygulamalısın!
+Koordinatları bul, işlemi uygula, harfe çevir!
 
 ---
 
@@ -40,26 +39,19 @@ J=10  K=11  L=12  M=13  N=14  O=15  P=16  Q=17  R=18
 S=19  T=20  U=21  V=22  W=23  X=24  Y=25  Z=26
 ```
 
-## Görev
+## Serhat'ın Notu
 
-Serhat'ın notu: *"Koordinatlardaki sayıları bul, her birinden **3 çıkar**,
-sonra harf tablosuna bak."*
+> *"Koordinatlardaki sayıları bul, her birinden **3 çıkar**,
+> sonra harf tablosuna bak."*
 
-Aşağıdaki koordinatları sırasıyla çöz:
+**Koordinatlar:**
 
 ```
-1. harf → Satır-1, Sütun-B = ?  →  ? - 3 = ?  →  Harf tablosu: ?
-2. harf → Satır-2, Sütun-D = ?  →  ? - 3 = ?  →  Harf tablosu: ?
-3. harf → Satır-4, Sütun-C = ?  →  ? - 3 = ?  →  Harf tablosu: ?
-4. harf → Satır-5, Sütun-E = ?  →  ? - 3 = ?  →  Harf tablosu: ?
+1. harf → Satır-1, Sütun-B
+2. harf → Satır-2, Sütun-D
+3. harf → Satır-4, Sütun-C
+4. harf → Satır-5, Sütun-E
 ```
-
-**Adım adım:**
-1. Matriste koordinatı bul → sayıyı oku
-2. Bu sayıdan **3 çıkar**
-3. Sonucu harf tablosunda bul
-
-> İpucu: Satır-1, Sütun-B = 4 → 4 - 3 = 1 → Harf tablosunda 1 = ?
 
 ---
 

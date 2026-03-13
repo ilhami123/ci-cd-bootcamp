@@ -12,11 +12,10 @@ antik bir şifreleme yöntemiyle — **Polybius Izgarası** ile gizlemiş!
 
 ---
 
-## Polybius Izgarası Nedir?
+## Polybius Izgarası
 
-Antik Yunanlı tarihçi Polybius tarafından icat edilen bu yöntemde,
-her harf bir **satır-sütun çifti** ile temsil edilir. İlk basamak
-satırı, ikinci basamak sütunu gösterir.
+Her harf bir **satır-sütun çifti** ile temsil edilir.
+İlk basamak satırı, ikinci basamak sütunu gösterir.
 
 ```
         1     2     3     4     5
@@ -33,11 +32,7 @@ satırı, ikinci basamak sütunu gösterir.
       └─────┴─────┴─────┴─────┴─────┘
 ```
 
-> Örnek: **22** → Satır 2, Sütun 2 → **G**
-
 ## Şifreli Mesaj
-
-Gülşah'ın bıraktığı şifreli koordinatlar:
 
 ```
 ╔══════════════════════════════════════════════════════╗
@@ -47,27 +42,8 @@ Gülşah'ın bıraktığı şifreli koordinatlar:
 ╚══════════════════════════════════════════════════════╝
 ```
 
-## Görev
-
-Her iki basamaklı sayıyı Polybius Izgarası'nda çöz.
-İlk basamak **satır**, ikinci basamak **sütun** numarasıdır.
-
-```
-33 → Satır ?, Sütun ? → ?
-15 → Satır ?, Sütun ? → ?
-42 → Satır ?, Sütun ? → ?
-23 → Satır ?, Sütun ? → ?
-11 → Satır ?, Sütun ? → ?
-12 → Satır ?, Sütun ? → ?
-11 → Satır ?, Sütun ? → ?
-```
-
-7 sayı = 7 harf. Birleştirdiğinde Gülşah'ın hoşgeldin mesajını bulacaksın!
-
-> İpucu: 33 → Satır 3, Sütun 3 → Izgarada bu hücrede hangi harf var?
+7 sayı = 7 harf. Izgaradan çöz ve birleştir.
 
 ---
 
 Cevabını `cevaplar.py` dosyasındaki `"vaka1"` anahtarına yaz.
-
-> `cevaplar.py` dosyasına tıkla → sağ üstteki **kalem (✏️) ikonuna** bas → cevabını yaz → **Commit changes** butonuna tıkla.

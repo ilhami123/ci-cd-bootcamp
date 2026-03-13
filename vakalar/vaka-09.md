@@ -7,8 +7,8 @@
 ╚════════════════════════════════════════╝
 ```
 
-Son portalın anahtarını **10 muhafızdan** biri koruyor. 5 ipucunu
-sırasıyla uygulayarak doğru muhafızı bulabilir misin?
+Bu portalın anahtarını **10 muhafızdan** biri koruyor.
+5 koşulu uygulayarak doğru muhafızı bul!
 
 ---
 
@@ -20,7 +20,7 @@ sırasıyla uygulayarak doğru muhafızı bulabilir misin?
 ╠═══════════╬═══════════╬═══════╬═══════╬════════╬════════╣
 ║  REHBER   ║  Su       ║   8   ║  100  ║   3    ║ Kuzey  ║
 ╠═══════════╬═══════════╬═══════╬═══════╬════════╬════════╣
-║  LIDER    ║  Ateş     ║   5   ║  200  ║   5    ║ Güney  ║
+║  LİDER    ║  Ateş     ║   5   ║  200  ║   5    ║ Güney  ║
 ╠═══════════╬═══════════╬═══════╬═══════╬════════╬════════╣
 ║  USTA     ║  Toprak   ║  10   ║   50  ║   2    ║ Doğu   ║
 ╠═══════════╬═══════════╬═══════╬═══════╬════════╬════════╣
@@ -40,36 +40,18 @@ sırasıyla uygulayarak doğru muhafızı bulabilir misin?
 ╚═══════════╩═══════════╩═══════╩═══════╩════════╩════════╝
 ```
 
-## İpuçları
-
-Core Crew şu notları bırakmış:
+## Koşullar
 
 ```
-📌 İpucu 1: "Doğru muhafızın gücü 6'dan büyüktür."
-
-📌 İpucu 2: "Doğru muhafızın yaşı 200'den küçüktür."
-
-📌 İpucu 3: "Doğru muhafızın seviyesi 5 değildir."
-
-📌 İpucu 4: "Doğru muhafızın bölgesi Kuzey veya Güney'dir."
-
-📌 İpucu 5: "Doğru muhafızın adı 7 harften kısadır."
+📌 Koşul 1: Doğru muhafızın gücü 6'dan büyüktür.
+📌 Koşul 2: Doğru muhafızın yaşı 200'den küçüktür.
+📌 Koşul 3: Doğru muhafızın seviyesi 5 değildir.
+📌 Koşul 4: Doğru muhafızın bölgesi Kuzey veya Güney'dir.
+📌 Koşul 5: Doğru muhafızın adı 7 harften kısadır.
 ```
 
-## Görev
-
-Her ipucunu sırasıyla uygulayarak muhafızları ele:
-
-**Adım 1:** Güç > 6 olanlar kimler? (Diğerlerini ele!)
-**Adım 2:** Kalanlardan yaşı < 200 olanlar?
-**Adım 3:** Kalanlardan seviyesi 5 olmayanlar?
-**Adım 4:** Kalanlardan bölgesi Kuzey veya Güney olanlar?
-**Adım 5:** Kalanlardan adı 7 harften kısa olanlar?
-
-Geriye kalan tek muhafızın adı, portalın anahtarıdır!
-
-> İpucu: İlk elemeden sonra 6 muhafız kalır.
-> SAVAŞÇI = 7 harf, REHBER = 6 harf...
+Tüm koşulları sırasıyla uygula. Geriye kalan tek
+muhafızın adı, portalın anahtarıdır.
 
 ---
 
