@@ -7,13 +7,13 @@
 ╚════════════════════════════════════════╝
 ```
 
-Son portal! Kübra, bu portalın anahtarını **önceki 9 portalın
+Son portal! Core Crew, bu portalın anahtarını **önceki 9 portalın
 cevaplarının içine** gizlemiş. Tüm portalları çözmeden bu portalı
 açamazsın!
 
 ---
 
-## Kübra'nın Son Notu
+## Core Crew'un Son Notu
 
 > *"Her portalın cevabı bir anahtar taşıyor. İlk harfleri birleştir*
 > *ve son kapıyı aç."*
@@ -36,7 +36,7 @@ Portal 9  cevabı: ??????    → İlk harf: ?
 
 9 ilk harf yan yana gelince, son portalın anahtarı ortaya çıkar!
 
-> ⚠️ Bu bulmacayı çözmek için önce diğer 9 portalı çözmüş olmalısın!
+> Bu bulmacayı çözmek için önce diğer 9 portalı çözmüş olmalısın!
 
 > İpucu: Cevaplarını `cevaplar.py` dosyandan kontrol edebilirsin.
 

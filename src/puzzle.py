@@ -10,7 +10,7 @@
 # ║  mesajını okuyabileceksin!                                   ║
 # ║                                                              ║
 # ║  ⚠️  Sadece TODO yazan yerleri düzenle!                      ║
-# ║  ⚠️  Her fonksiyonu tamamladıktan sonra git push yap!        ║
+# ║  ⚠️  Her fonksiyonu tamamladıktan sonra Commit changes yap!   ║
 # ║  ⚠️  GitHub Actions sekmesinden testleri takip et!            ║
 # ╚══════════════════════════════════════════════════════════════╝
 

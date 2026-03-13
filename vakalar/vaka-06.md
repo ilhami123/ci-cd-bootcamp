@@ -1,65 +1,79 @@
-# 🌀 Portal 6 — Sezar'ın Portalı
+# 🌀 Portal 6 — İrem'in Şifre Kasası
 
 ```
 ╔════════════════════════════════════════╗
 ║  NEXUS Portal Sistemi — Portal 6/10   ║
-║  Tür: Sezar Şifresi                   ║
+║  Tür: Vigenère Şifresi                ║
 ╚════════════════════════════════════════╝
 ```
 
-Kübra, bu portalın anahtarını **Sezar şifresi** ile korumuş.
-Julius Sezar'ın 2000 yıl önce kullandığı bu şifreleme yöntemini
-çözebilir misin?
+İrem, NEXUS'un şifre uzmanı olarak bu portalın anahtarını
+**Vigenère şifresi** ile korumuş. Sezar şifresinin çok daha güçlü
+bir versiyonu olan bu yöntemi çözebilir misin?
 
 ---
 
-## Sezar Şifresi Nedir?
+## Vigenère Şifresi Nedir?
 
-Her harf, alfabede **belirli bir sayı kadar kaydırılır**.
+Sezar şifresinde her harf **aynı sayı** kadar kaydırılır. Vigenère'de
+ise her harf **farklı miktarda** kaydırılır — kaydırma miktarını bir
+**anahtar kelime** belirler!
 
-Örnek — 3 harf ileri kaydırma:
+**Şifreleme:** Anahtar harfin alfabedeki sırası kadar ileri kaydır.
+**Çözme:** Anahtar harfin alfabedeki sırası kadar **geri** kaydır.
+
+> A=0, B=1, C=2, ... N=13, ... Z=25
+
+## Anahtar Kelime
+
 ```
-Orijinal:   A  B  C  D  E  F  G  ...
-Şifreli:    D  E  F  G  H  I  J  ...
+╔══════════════════════════════════╗
+║   Anahtar: N E X U S             ║
+║   (Tekrarlı: N E X U S N E)     ║
+╚══════════════════════════════════╝
 ```
-
-Yani `A → D`, `B → E`, `C → F` olur.
-
-**Çözmek için:** Her harfi aynı sayı kadar **geri** kaydır!
 
 ## Şifreli Mesaj
-
-Kübra'nın notu: *"Her harfi 3 geri kaydır."*
 
 ```
 ╔══════════════════════════════════════╗
 ║                                      ║
-║       D  Q  D  K  W  D  U            ║
+║       N  R  X  B  L  N  V            ║
 ║                                      ║
 ╚══════════════════════════════════════╝
 ```
 
-## Alfabe Tablosu (yardımcı)
+## Çözme Tablosu
+
+Aşağıdaki tabloda **anahtar harfin satırını** bul, o satırda
+**şifreli harfi** ara, **sütun başlığı** orijinal harfi verir:
 
 ```
-A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+    A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z
+N:  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  A  B  C  D  E  F  G  H  I  J  K  L  M
+E:  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W  X  Y  Z  A  B  C  D
+X:  X  Y  Z  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T  U  V  W
+U:  U  V  W  X  Y  Z  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R  S  T
+S:  S  T  U  V  W  X  Y  Z  A  B  C  D  E  F  G  H  I  J  K  L  M  N  O  P  Q  R
 ```
 
 ## Görev
 
-Şifreli mesajdaki her harfi **3 harf geri** kaydırarak orijinal kelimeyi bul.
+Her şifreli harfi anahtar harfiyle eşle, sonra tablodan çöz:
 
 ```
-D → 3 geri → D...C...B...?
-Q → 3 geri → Q...P...O...?
-D → 3 geri → ?
-K → 3 geri → ?
-W → 3 geri → ?
-D → 3 geri → ?
-U → 3 geri → ?
+Pozisyon   Şifreli   Anahtar   → Tabloda satır bul, şifreli harfi ara → Orijinal
+───────────────────────────────────────────────────────────────────────────────
+   1.         N         N       → N satırında N'yi bul → sütun başlığı = ?
+   2.         R         E       → E satırında R'yi bul → sütun başlığı = ?
+   3.         X         X       → X satırında X'i bul → sütun başlığı = ?
+   4.         B         U       → U satırında B'yi bul → sütun başlığı = ?
+   5.         L         S       → S satırında L'yi bul → sütun başlığı = ?
+   6.         N         N       → N satırında N'yi bul → sütun başlığı = ?
+   7.         V         E       → E satırında V'yi bul → sütun başlığı = ?
 ```
 
-> İpucu: D'den 3 geri gidersen: D → C → B → A
+> İpucu: N satırında N harfini bul → sütun başlığına bak → A
 
 ---
 

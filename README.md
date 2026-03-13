@@ -10,9 +10,11 @@
 
 ---
 
-ALKÜ'nün en parlak mühendisi **Kübra**, NEXUS topluluğunun geleceği için
-yeni üyeler arıyor. Meslektaşı **Burak** ile birlikte **10 portal** tasarladılar.
-Her portalı geçenler NEXUS'un yeni üyeleri olmaya hak kazanır!
+**NEXUS Core Crew** — Kaya, İrem, Mehmet, Okan, Serhat, Nigina ve Gülşah —
+ALKÜ'deki zamanları dolmak üzere. LIFE görevleri onları yeni ufuklara çağırıyor.
+Ayrılmadan önce, kendilerinin yerini alacak yeni koruyucuları bulmak için
+**10 portal** tasarladılar. Portalları geçenler NEXUS'un yeni koruyucuları
+olmaya hak kazanır!
 
 > **⚠️ Kod yazmana gerek yok!** Sadece bulmacaları çöz ve cevapları yaz.
 
@@ -46,18 +48,18 @@ Yeşil ✅ = doğru, Kırmızı ❌ = tekrar dene!
 
 ## 🌀 Portallar
 
-| # | Portal Adı | Tür |
-|---|-----------|-----|
-| 1 | Hoşgeldin Portalı | Ayna yazısı |
-| 2 | Sayı Matrisi | Matris + harf-sayı dönüşümü |
-| 3 | Makinelerin Dili | Binary (ikili sayı) çözme |
-| 4 | Gizli Portal | Gizli dosya keşfi |
-| 5 | Koordinat Haritası | Koordinat tablosu |
-| 6 | Sezar'ın Portalı | Sezar şifresi |
-| 7 | Şiirin Portalı | Akrostiş |
-| 8 | Mors Sinyalleri | Mors kodu |
-| 9 | Mantık Kapısı | Mantık ve eleme |
-| 10 | Son Portal | Meta-bulmaca |
+| # | Portal Adı | Tür | Tasarlayan |
+|---|-----------|-----|------------|
+| 1 | Hoşgeldin Portalı | Polybius ızgarası | Gülşah |
+| 2 | Sayı Matrisi | Matris + işlem | Serhat |
+| 3 | Makinelerin Dili | 8-bit binary çözme | Mehmet |
+| 4 | Gizli Portal | Gizli dosya keşfi + tuzak ayıklama | Okan |
+| 5 | Koordinat Haritası | Yol izleme | Nigina |
+| 6 | İrem'in Şifre Kasası | Vigenère şifresi | İrem |
+| 7 | Şiirin Portalı | Filtrelenmiş akrostiş | Kaya |
+| 8 | Mors Sinyalleri | Mors kodu + parazit ayıklama | Serhat |
+| 9 | Mantık Kapısı | Çoklu mantık ve eleme | Core Crew |
+| 10 | Son Portal | Meta-bulmaca | Core Crew |
 
 > Sırayla çözmek zorunda değilsin! (Ama Portal 10 için diğerlerini çözmüş olmalısın.)
 
@@ -82,7 +84,7 @@ Yeşil ✅ = doğru, Kırmızı ❌ = tekrar dene!
 
 `https://KULLANICI-ADIN.github.io/bootcamp/`
 
-Kübra'nın gizli mesajı ortaya çıkar ve NEXUS'un yeni üyesi olursun! 🌟
+Core Crew'un gizli mesajı ortaya çıkar ve NEXUS'un yeni koruyucusu olursun! 🌟
 
 ---
 

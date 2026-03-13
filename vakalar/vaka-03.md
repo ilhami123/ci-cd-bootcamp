@@ -3,40 +3,23 @@
 ```
 ╔════════════════════════════════════════╗
 ║  NEXUS Portal Sistemi — Portal 3/10   ║
-║  Tür: Binary (İkili Sayı) Çözme       ║
+║  Tür: 8-Bit Binary Çözme              ║
 ╚════════════════════════════════════════╝
 ```
 
-Burak, bu portalın anahtarını **binary (ikili sayı sistemi)** ile
-şifrelemiş. Bilgisayarların dilini çözebilir misin?
+Mehmet, bu portalın anahtarını **8 bitlik binary (ikili sayı sistemi)**
+ile şifrelemiş. Gerçek bilgisayarların dilini çözebilir misin?
 
 ---
 
 ## Binary Nedir?
 
-Bilgisayarlar sadece 0 ve 1'lerle konuşur. Her sayı, ikili sistemde
-şu şekilde yazılır:
+Bilgisayarlar sadece 0 ve 1'lerle konuşur. 8 bitlik bir sayıda
+her basamak, sağdan sola 2'nin artan kuvvetlerini temsil eder:
 
 ```
-İkili (Binary)  →  Onluk (Decimal)
-─────────────────────────────────
-00001           →  1
-00010           →  2
-00011           →  3
-00100           →  4
-00101           →  5
-00110           →  6
-00111           →  7
-01000           →  8
-01001           →  9
-01010           →  10
-```
-
-**Nasıl çevriliyor?** Sağdan sola her basamak 2'nin kuvvetini temsil eder:
-
-```
-Basamak değeri:  16   8   4   2   1
-Örnek sayı:       1   0   0   1   1  →  16+0+0+2+1 = 19  →  S harfi
+Basamak değeri:  128   64   32   16    8    4    2    1
+Örnek:             0    0    0    1    0    0    1    1  →  16+2+1 = 19
 ```
 
 ## Harf-Sayı Tablosu
@@ -49,31 +32,29 @@ S=19  T=20  U=21  V=22  W=23  X=24  Y=25  Z=26
 
 ## Şifreli Mesaj
 
+Mehmet'in bıraktığı 8 bitlik binary dizisi:
+
 ```
-╔═══════════════════════════════════════════════════════════╗
-║                                                           ║
-║   00011  00101  10011  00001  10010  00101  10100          ║
-║                                                           ║
-╚═══════════════════════════════════════════════════════════╝
+╔═══════════════════════════════════════════════════════════════════════╗
+║                                                                       ║
+║   00000011  00000101  00010011  00000001  00010010  00000101  00010100 ║
+║                                                                       ║
+╚═══════════════════════════════════════════════════════════════════════╝
 ```
 
 ## Görev
 
-Her 5 bitlik grubu **onluk sayıya** çevir, sonra **harf tablosundan**
-karşılığını bul. 7 harf, 7 binary grup — hepsini çöz!
+Her 8 bitlik grubu **onluk sayıya** çevir, sonra **harf tablosundan**
+karşılığını bul. 7 grup = 7 harf.
 
-**Adım adım:**
+Her grupta sağdan sola basamak değerleri:
 ```
-00011 → 0+0+0+2+1 = ?  → Harf tablosunda ? = ?
-00101 → 0+0+1+0+1 = ?  → Harf tablosunda ? = ?
-10011 → 16+0+0+2+1 = ? → Harf tablosunda ? = ?
-00001 → 0+0+0+0+1 = ?  → Harf tablosunda ? = ?
-10010 → 16+0+0+2+0 = ? → Harf tablosunda ? = ?
-00101 → 0+0+1+0+1 = ?  → Harf tablosunda ? = ?
-10100 → 16+0+1+0+0 = ? → Harf tablosunda ? = ?
+  128  64  32  16  8  4  2  1
 ```
 
-> İpucu: İlk grup `00011` = 0+0+0+2+1 = 3 → Harf tablosunda 3 = C
+Sadece **1** olan basamakların değerlerini topla!
+
+> İpucu: `00000011` → sadece son iki basamak 1 → 2+1 = 3 → Harf tablosunda 3 = C
 
 ---
 

@@ -3,28 +3,33 @@
 ```
 ╔════════════════════════════════════════╗
 ║  NEXUS Portal Sistemi — Portal 2/10   ║
-║  Tür: Matris Çözme                    ║
+║  Tür: Matris + İşlem Çözme            ║
 ╚════════════════════════════════════════╝
 ```
 
-Kübra, bu portalın anahtarını bir sayı matrisinin içine gizlemiş.
-Koordinatları takip et, sayıları harflere çevir!
+Serhat, bu portalın anahtarını büyük bir sayı matrisinin içine gizlemiş.
+Ama bu sefer sadece koordinat bulmak yetmez — bir de **matematiksel
+işlem** uygulamalısın!
 
 ---
 
-## Portal Matrisi
+## Portal Matrisi (6×6)
 
 ```
-         Sütun-A   Sütun-B   Sütun-C   Sütun-D
-        ┌─────────┬─────────┬─────────┬─────────┐
-Satır-1 │   14    │    1    │    7    │   18    │
-        ├─────────┼─────────┼─────────┼─────────┤
-Satır-2 │    5    │   12    │   22    │    9    │
-        ├─────────┼─────────┼─────────┼─────────┤
-Satır-3 │   16    │    3    │   11    │   25    │
-        ├─────────┼─────────┼─────────┼─────────┤
-Satır-4 │    8    │   21    │   13    │    6    │
-        └─────────┴─────────┴─────────┴─────────┘
+         Sütun-A   Sütun-B   Sütun-C   Sütun-D   Sütun-E   Sütun-F
+        ┌─────────┬─────────┬─────────┬─────────┬─────────┬─────────┐
+Satır-1 │   17    │    4    │   22    │    9    │   26    │   11    │
+        ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
+Satır-2 │    8    │   20    │   13    │   15    │   18    │    7    │
+        ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
+Satır-3 │   25    │    6    │   19    │   10    │    1    │   16    │
+        ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
+Satır-4 │    3    │   21    │   14    │   23    │    5    │   12    │
+        ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
+Satır-5 │    2    │   11    │   26    │    8    │   24    │   20    │
+        ├─────────┼─────────┼─────────┼─────────┼─────────┼─────────┤
+Satır-6 │   16    │    3    │    9    │    7    │   22    │   14    │
+        └─────────┴─────────┴─────────┴─────────┴─────────┴─────────┘
 ```
 
 ## Harf-Sayı Tablosu
@@ -37,23 +42,24 @@ S=19  T=20  U=21  V=22  W=23  X=24  Y=25  Z=26
 
 ## Görev
 
-Aşağıdaki koordinatlardaki sayıları sırasıyla bul, sonra her sayıyı
-yukarıdaki tabloyu kullanarak harfe çevir:
+Serhat'ın notu: *"Koordinatlardaki sayıları bul, her birinden **3 çıkar**,
+sonra harf tablosuna bak."*
+
+Aşağıdaki koordinatları sırasıyla çöz:
 
 ```
-1. harf → Satır-1, Sütun-B
-2. harf → Satır-2, Sütun-B
-3. harf → Satır-3, Sütun-C
-4. harf → Satır-4, Sütun-B
+1. harf → Satır-1, Sütun-B = ?  →  ? - 3 = ?  →  Harf tablosu: ?
+2. harf → Satır-2, Sütun-D = ?  →  ? - 3 = ?  →  Harf tablosu: ?
+3. harf → Satır-4, Sütun-C = ?  →  ? - 3 = ?  →  Harf tablosu: ?
+4. harf → Satır-5, Sütun-E = ?  →  ? - 3 = ?  →  Harf tablosu: ?
 ```
 
 **Adım adım:**
-1. Satır-1, Sütun-B = ? → Harf tablosundan bu sayı = ?
-2. Satır-2, Sütun-B = ? → Harf tablosundan bu sayı = ?
-3. Satır-3, Sütun-C = ? → Harf tablosundan bu sayı = ?
-4. Satır-4, Sütun-B = ? → Harf tablosundan bu sayı = ?
+1. Matriste koordinatı bul → sayıyı oku
+2. Bu sayıdan **3 çıkar**
+3. Sonucu harf tablosunda bul
 
-> İpucu: İlk koordinat (Satır-1, Sütun-B) = 1 → Harf tablosunda 1 = ?
+> İpucu: Satır-1, Sütun-B = 4 → 4 - 3 = 1 → Harf tablosunda 1 = ?
 
 ---
 

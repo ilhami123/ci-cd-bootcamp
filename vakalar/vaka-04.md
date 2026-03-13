@@ -3,29 +3,37 @@
 ```
 ╔════════════════════════════════════════╗
 ║  NEXUS Portal Sistemi — Portal 4/10   ║
-║  Tür: Dosya Keşfi                     ║
+║  Tür: Dosya Keşfi + Tuzak Ayıklama    ║
 ╚════════════════════════════════════════╝
 ```
 
-Kübra, bu portalın anahtarını **gizli bir dosyanın** içine sakladı.
-Dosya bu projenin içinde bir yerlerde... ama dikkatli bakmazsan göremezsin!
+Okan, NEXUS'un güvenlik uzmanı olarak bu portalın anahtarını
+**gizli dosyaların** içine sakladı. Ama dikkat — Okan birden
+fazla gizli dosya bırakmış ve **bazıları tuzak!**
 
 ---
 
 ## Bilgi: Gizli Dosyalar
 
 Yazılım dünyasında, dosya adı **nokta (.) ile başlıyorsa** dosya
-"gizli" sayılır. Bu dosyalar genellikle göz ardı edilir ama
-GitHub'da `vakalar/` klasörüne tıkladığında aslında listelenirler —
+"gizli" sayılır. Bu dosyalar normalde görünmez ama GitHub'da
+`vakalar/` klasörüne tıkladığında aslında listelenirler —
 **dikkatli bakarsan** fark edebilirsin!
 
 ## Görev
 
 GitHub'da `vakalar/` klasörüne git ve dosya listesine **çok dikkatli** bak.
-Orada sıradan portal dosyalarından farklı görünen bir dosya var.
-Onu bul ve içindeki **Portal Anahtarı**'nı oku.
+Orada normal portal dosyalarından farklı, `.` ile başlayan **birden
+fazla dosya** var. Hepsini aç ve incele.
 
-> İpucu: Dosya adı `.` ile başlıyor ve Kübra'nın adını içeriyor.
+**Ama dikkat:** Tuzak dosyalarına kanma! Gerçek anahtarı içeren
+dosyayı bulmak senin görevin.
+
+Okan'ın notu: *"Bir güvenlik uzmanının dosyasını ara.
+Tuzaklar seni yanıltmasın."*
+
+> İpucu: Birden fazla gizli dosya var. Hepsini oku — sadece biri
+> gerçek portal anahtarını içeriyor.
 
 ---
 
